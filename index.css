@@ -1,0 +1,57 @@
+#postcard{
+    position:relative;
+    width:90vw;
+    height: 800px;
+    background-image: url(imgs/default.png);
+    background-size: cover;
+}
+
+#to{
+    position:absolute;
+    top:0;
+    left:0;
+    margin: 10px;
+    background-color:rgba(255,255,255,0.5);
+}
+
+#message{
+    width:50%;
+    height:30%;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    background-color:rgba(255,255,255,0.5);
+    text-align: center;
+}
+
+#from{
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin: 10px;
+    background-color:rgba(255,255,255,0.5);
+}
+
+.topFormat{
+    width:150px;
+    height:150px;
+    position:relative;
+    background-size: cover;
+}
+
+.textBox{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(255,255,255,0.5);
+    margin: 10px;
+}
+
+#preview{
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
